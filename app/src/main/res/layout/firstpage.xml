@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vectorstock_3653440">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="85dp"
+        android:text="QuizApp"
+        android:textColor="#FF5722"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="11"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:hint="Enter your name" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/edits"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="Start"
+        app:iconTint="#F44336" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button2"
+        android:text="About" />
+
+</LinearLayout>
